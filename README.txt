@@ -15,7 +15,8 @@ The game has to be played from the command-line interface, it needs
 an argument, it's either "connect" or "listen". No matter which one you choose,
 two TCP streams will be created, the argument is called "initial mode" because
 it specifies the order of the connection attempts between the players. 
-You either wait for a connection first or connect two someone who's already 
+You either wait for a connection first or connect t
+o someone who's already 
 sat up the listener. Then the reverse of the this process will happen. 
 Let's assume that white launched the game with "listen"(which means the other
 player will write "connect" in the initial mode), then this happens:
