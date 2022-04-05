@@ -57,11 +57,16 @@ PART TWO
 I'm sure you will ask: what's the purpose of such game? or: why not make it
 better with GUI and Rules?
 
-The answer is because this project was a practice for me, and the main point of practice is not playing chess, but the logical steps for movement and locating pieces. It's not on my list
+The answer is because this project was a practice for me, and the main point of practice
+is not playing chess, but the algorithms for movement and locating pieces. It's not on my list
 of serious automation scripts. But I gained a lot of experience doing it even
 though it's just for fun. I'm not even into game development and GUI stuff.
 I'm going the exact opposite way, and I chose a chess game because I like chess
 more than anyone in the modern world. You can notice that this game can't be 
 played without you and your friend chatting and deciding to play. Plus you 
-have to exchange public IPs and decide what port numbers will be used. I hope
-you read until here, thank you very much and enjoy my weird chess game.
+have to exchange public IPs and decide what port numbers will be used. 
+I know the game is completely non-user-friendly and doesn't use a comfortable client-server model
+for the user, it's not meant to be like chess.com, you may only play it with your friends on
+LAN and just for fun, this way I can say that you've understood the second part of this file.
+Good boy/girl.
+I hope you read until here, thank you very much and enjoy my weird chess game.
