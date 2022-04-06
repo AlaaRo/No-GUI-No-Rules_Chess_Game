@@ -90,6 +90,7 @@ class Translator:
     def __init__(self,file,rank):
         self.file = file
         self.rank = rank
+
 promotion_symbol = ""
 
 def movement(currently,future):
@@ -138,6 +139,7 @@ try:
                 print(unfold())
                 clientsocket.send(piece_location.encode())
                 clientsocket.send((piece_next_location + promotion_symbol).encode())
+                promotion_symbol = ""
                 break
             except (IndexError,ValueError):
                 print("Wrong Input")
