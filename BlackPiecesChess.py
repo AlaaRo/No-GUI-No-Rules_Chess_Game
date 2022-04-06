@@ -166,6 +166,7 @@ try:
                 print(unfold())
                 clientsocket.send(piece_location.encode())
                 clientsocket.send((piece_next_location + promotion_symbol).encode())
+                promotion_symbol = ""  
                 break
             except (IndexError,ValueError):
                 print("Wrong Input")
