@@ -64,7 +64,7 @@ else:
     time.sleep(30)
     sys.exit()
 list_chessboard = [     
-			["bR","bN","bB","bQ","wK","bB","bN","bR"],
+			["bR","bN","bB","bQ","bK","bB","bN","bR"],
 
 			["bP","bP","bP","bP","bP","bP","bP","bP"],			
                         
