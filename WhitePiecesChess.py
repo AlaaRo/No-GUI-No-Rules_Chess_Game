@@ -18,7 +18,7 @@ if initial_mode.lower() == "connect":
         print("\nCONNECTED")
         try:
             listener.bind((your_ip,your_port))
-            listener.listen()
+            listener.listen(0)
             print("\nWAITING FOR THE OPPONENT TO CONNECT BACK")
             player,address = listener.accept()
             print(address,"CONNECTED",sep=" ")
@@ -38,7 +38,7 @@ if initial_mode.lower() == "connect":
 elif initial_mode.lower() == "listen":
     try:
         listener.bind((your_ip,your_port))
-        listener.listen()
+        listener.listen(0)
         print("\nWAITING FOR THE OPPONENT TO CONNECT")
         player,address = listener.accept()
         print(address,"CONNECTED",sep=" ")
